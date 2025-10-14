@@ -1,0 +1,98 @@
+/* --- Estilos Generales y Reseteo --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo claro */
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- Encabezado (Header) --- */
+header {
+    background-color: #3f51b5; /* Un color primario (azul índigo) */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+/* --- Sección de Información del Juego --- */
+.game-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.game-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes suaves */
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Botones de Descarga --- */
+.download-buttons a {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button.primary {
+    background-color: #4CAF50; /* Botón de acción principal (verde) */
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: #45a049;
+}
+
+.button.secondary {
+    background-color: #e0e0e0; /* Botón secundario (gris) */
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.button.secondary:hover {
+    background-color: #ccc;
+}
+
+/* --- Sección Quiénes Somos --- */
+.about-us {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+/* --- Pie de Página (Footer) --- */
+footer {
+    background-color: #333;
+    color: #bbb;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
